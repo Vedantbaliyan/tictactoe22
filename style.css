@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: #548687;
+    border-radius: 6%;
+    box-shadow: 5px 5px 8px black;
+}
+.heading{
+    width: 30%;
+    height: 20%;
+    padding: 2rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.containerbox{
+    height: 60vmin;
+    width: 60vmin;
+    padding: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap: 0.3rem;
+}
+#box{
+    border-radius: 1.2rem;
+    background-color: #ffffc7;
+    color: blue;
+    font-size: 3rem;
+}
+#resetbtn{
+    height: 10%;
+    width: 10%;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+.footerbox{
+    height: 15%;
+    width: 55%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.footerbox p{
+    font-size: 2rem;
+}
+#newgamebtn{
+    height: 10%;
+    width: 10%;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+.msgcontainer{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.hide{
+    display: none;
+}
